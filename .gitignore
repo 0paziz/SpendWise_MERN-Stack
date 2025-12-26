@@ -1,0 +1,63 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Environment variables / Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+**/.env
+**/.env.*
+*.pem
+*.key
+*.cert
+*.crt
+
+
+# Build outputs
+dist/
+out/
+build/
+**/dist/
+**/out/
+**/build/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage/
+**/coverage/
+
+# Misc
+.cache/
+.parcel-cache/
+.next/
+.serverless/
+.fusebox/
+.dynamodb/
