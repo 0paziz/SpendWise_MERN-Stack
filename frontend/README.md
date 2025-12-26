@@ -38,7 +38,3 @@ The output will be in the `dist/` directory, ready to be deployed to Netlify, Ve
 
 ---
 
-## 🔗 Links
-- **Live Demo**: [realschoolmanagementsystem.netlify.app/](https://realschoolmanagementsystem.netlify.app/)
-- **Design Template**: [Uizard Template](https://app.uizard.io/templates/PjXBoyAKjWFnZZK7AnA5/fullscreen)
-- **Deployment**: [Netlify](https://www.netlify.com/drop/)
