@@ -9,6 +9,7 @@ const UserRoute = require("../route/UserRoute");
 const TransectionRoute = require("../route/TransectionRoute");
 
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 // middleware
 app.use(cors({
@@ -16,48 +17,25 @@ app.use(cors({
   credentials: true
 }));
 app.use(express.json());
-app.options("*", cors());
 
+// MongoDB connection (Render-friendly)
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => console.log("MongoDB connected"))
+  .catch(err => {
+    console.error("MongoDB error:", err);
+    process.exit(1);
+  });
 
-// ✅ Serverless-safe MongoDB connection
-let cached = global.mongoose;
-
-if (!cached) {
-  cached = global.mongoose = { conn: null, promise: null };
-}
-
-async function connectDB() {
-  if (cached.conn) return cached.conn;
-
-  if (!cached.promise) {
-    cached.promise = mongoose
-      .connect(process.env.MONGO_URI)
-      .then((mongoose) => mongoose);
-  }
-
-  cached.conn = await cached.promise;
-  return cached.conn;
-}
-
-// ✅ Ensure DB before handling routes
-app.use(async (req, res, next) => {
-  try {
-    await connectDB();
-    next();
-  } catch (error) {
-    console.error("MongoDB error:", error);
-    res.status(500).json({ message: "Database connection failed" });
-  }
-});
-
-// ✅ Root test route (VERY IMPORTANT)
+// test route
 app.get("/", (req, res) => {
-  res.json({ status: "Backend running on Vercel" });
+  res.json({ status: "Backend running on Render" });
 });
 
 // routes
 app.use("/api/auth", UserRoute);
 app.use("/api/transections", TransectionRoute);
 
-
-module.exports = app;
+// 🚀 REQUIRED for Render
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
