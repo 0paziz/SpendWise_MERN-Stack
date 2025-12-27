@@ -19,7 +19,7 @@ backend/
 ├── controller/    # Route controllers (Logic)
 ├── models/        # Mongoose Data Models
 ├── route/         # Express Route definitions
-└── server.js      # Main entry point
+└── api/index.js   # Main entry point
 ```
 
 ## 📡 API Endpoints
@@ -57,5 +57,5 @@ backend/
    ```
 3. Start the server:
    ```bash
-   node server.js
+   node api/index.js
    ```
