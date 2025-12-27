@@ -16,6 +16,8 @@ app.use(cors({
   credentials: true
 }));
 app.use(express.json());
+app.options("*", cors());
+
 
 // ✅ Serverless-safe MongoDB connection
 let cached = global.mongoose;
