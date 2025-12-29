@@ -69,7 +69,7 @@
 
 3. **Backend Setup:**
    ```bash
-   cd ../backend
+   cd backend
    npm install
    cp .env.example .env # Update your variables
    node server.js
@@ -77,11 +77,6 @@
 
 ---
 
-## 🤝 Contributor Pledge
-
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
-
-We commit to acting and interacting in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
 ### 🔒 Privacy & Security Pledge
 We pledge to handle user financial data with the utmost care. This project follows industry best practices for security:
