@@ -1,4 +1,4 @@
-# 💰 Expense Tracker - Personal Finance Dashboard
+# Expense Tracker - Personal Finance Dashboard
 
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -11,20 +11,20 @@
   <img src="frontend/public/dashboard.png" alt="Expense Tracker Banner" width="100%" style="border-radius: 10px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);">
 </p>
 
-## 🌟 Overview
+## Overview
 
 **Expense Tracker** is a modern, full-stack financial management application designed to help individuals track their spending, manage budgets, and visualize their financial health with precision and ease. Built with the **MERN stack**, it offers a seamless, responsive, and secure experience.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- **📊 Dynamic Dashboard**: Real-time visualization of income vs. expenses using interactive charts.
-- **💸 Transaction Management**: Easily add, edit, and delete transactions with categorized tags.
-- **🔐 Secure Authentication**: Robust user authentication using JWT and bcrypt password hashing.
-- **📱 Responsive Design**: Fully optimized for mobile, tablet, and desktop views using Tailwind CSS 4.
-- **📅 Data Filtering**: Filter transactions by date range, category, or type.
-- **🎭 Smooth Animations**: Enhanced user experience with Framer Motion transitions.
+- **Dynamic Dashboard**: Real-time visualization of income vs. expenses using interactive charts.
+- **Transaction Management**: Easily add, edit, and delete transactions with categorized tags.
+- **Secure Authentication**: Robust user authentication using JWT and bcrypt password hashing.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop views using Tailwind CSS 4.
+- **Data Filtering**: Filter transactions by date range, category, or type.
+- **Smooth Animations**: Enhanced user experience with Framer Motion transitions.
 
 ---
 
@@ -45,7 +45,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v18+)
@@ -78,7 +78,7 @@
 ---
 
 
-### 🔒 Privacy & Security Pledge
+### Privacy & Security Pledge
 We pledge to handle user financial data with the utmost care. This project follows industry best practices for security:
 - **Zero Raw Passwords**: All passwords are hashed using Bcrypt.
 - **Data Privacy**: We do not sell or share user data.
