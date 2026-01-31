@@ -63,7 +63,7 @@
    ```bash
    cd frontend
    npm install
-   cp .env.example .env # Update your variables
+   cp .env.example .env 
    npm run dev
    ```
 
@@ -71,7 +71,7 @@
    ```bash
    cd backend
    npm install
-   cp .env.example .env # Update your variables
+   cp .env.example .env 
    node server.js
    ```
 
@@ -86,7 +86,7 @@ We pledge to handle user financial data with the utmost care. This project follo
 
 ---
 
-## 📜 License
+## License
 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
