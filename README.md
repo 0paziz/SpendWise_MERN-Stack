@@ -28,7 +28,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 19**: Modern UI development with hooks.
