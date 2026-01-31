@@ -102,8 +102,7 @@ const Dashboard = () => {
       {/* Welcome Section */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
         <div>
-          <h1 className="text-4xl font-black text-gray-900 tracking-tight mb-2">My Dashboard</h1>
-          <p className="text-gray-500 font-medium">Welcome back! Here's what's happening with your money.</p>
+          <h1 className="text-4xl font-black text-gray-900 tracking-tight ">My Dashboard</h1>
         </div>
         <div className="flex gap-4">
           <button className="flex items-center gap-2 px-6 py-3.5 bg-white border border-gray-100 rounded-2xl font-bold text-gray-700 hover:bg-gray-50 transition-all shadow-sm">

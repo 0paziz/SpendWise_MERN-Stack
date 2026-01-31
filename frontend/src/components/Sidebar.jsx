@@ -46,9 +46,9 @@ const Sidebar = ({ isOpen, onClose }) => {
         <div className="flex flex-col h-full">
           {/* Logo Area */}
           <div className="p-8 flex items-center justify-between">
-            <Link to="/dashboard" className="flex items-center gap-2">
-              <div className="bg-indigo-600 p-2 rounded-lg">
-                <Wallet className="h-5 w-5 text-white" />
+            <Link to="/dashboard" className="flex items-center gap-1">
+              <div className=" p-2 ">
+                <img src='/wallet.png' className="h-5 w-5 text-white" />
               </div>
               <span className="text-xl font-bold text-gray-900 tracking-tight">SpendWise</span>
             </Link>

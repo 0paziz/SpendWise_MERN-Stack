@@ -12,11 +12,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="bg-indigo-600 p-2 rounded-lg">
-                <Wallet className="h-6 w-6 text-white" />
+            <Link to="/" className="flex items-center gap-1">
+              <div className="p-2 ">
+                <img src='/wallet.png' className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-600">
+              <span className="text-xl font-bold ">
                 SpendWise
               </span>
             </Link>
@@ -24,8 +24,6 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
-            <Link to="/" className="text-gray-600 hover:text-indigo-600 transition-colors font-medium">Home</Link>
-            <a href="#features" className="text-gray-600 hover:text-indigo-600 transition-colors font-medium">Features</a>
             {user ? (
               <div className="flex items-center gap-4">
                 <Link to="/dashboard" className="text-gray-600 hover:text-indigo-600 transition-colors font-medium">Dashboard</Link>

@@ -135,8 +135,7 @@ const Transactions = () => {
     <div className="space-y-8 pb-12">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
         <div>
-          <h1 className="text-4xl font-black text-gray-900 tracking-tight mb-2">Transactions</h1>
-          <p className="text-gray-500 font-medium">Keep track of every penny you spend or earn.</p>
+          <h1 className="text-4xl font-black text-gray-900 tracking-tight">Transactions</h1>
         </div>
         <div className="flex gap-4">
           <button 

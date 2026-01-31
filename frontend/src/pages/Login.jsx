@@ -40,9 +40,9 @@ const Login = () => {
         className="max-w-md w-full"
       >
         <div className="text-center mb-8">
-          <Link to="/" className="inline-flex items-center gap-2 mb-6">
-            <div className="bg-indigo-600 p-2.5 rounded-xl">
-              <Wallet className="h-6 w-6 text-white" />
+           <Link to="/" className="inline-flex items-center gap-1 mb-6">
+            <div className=" p-2.5 ">
+              <img src='/wallet.png' className="h-6 w-6 text-white" />
             </div>
             <span className="text-2xl font-bold text-gray-900 tracking-tight">SpendWise</span>
           </Link>
